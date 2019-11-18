@@ -5,9 +5,9 @@ import {
     Route} from "react-router-dom";
 
 import './LocalRouter.css';
-import ReflectedXSS from "./ReflectedXSS";
+import ReflectedXSS from "./vulnerability/ReflectedXSS";
 import VulnerabilitiesList from "./VulnerabilitiesList";
-import PersistentXSS from "./PersistentXSS";
+import PersistentXSS from "./vulnerability/PersistentXSS";
 
 
 class LocalRouter extends Component {
