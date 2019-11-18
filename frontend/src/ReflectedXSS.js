@@ -9,7 +9,6 @@ class ReflectedXSS extends Component {
         this.state = {isToggleOn: false};
 
         this.handleClick = this.handleClick.bind(this);
-
     }
 
     handleClick() {
