@@ -44,6 +44,9 @@ class VulnerabilitiesList extends Component {
                     <li>
                         <Link to="/persistent-xss">Persistent XSS</Link>
                     </li>
+                    <li>
+                        <Link to="/sql-injection">SQL injection</Link>
+                    </li>
                 </ul>
             </nav>
         );
