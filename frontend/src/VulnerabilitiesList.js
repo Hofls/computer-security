@@ -47,6 +47,9 @@ class VulnerabilitiesList extends Component {
                     <li>
                         <Link to="/sql-injection">SQL injection</Link>
                     </li>
+                    <li>
+                        <Link to="/csrf">CSRF</Link>
+                    </li>
                 </ul>
             </nav>
         );

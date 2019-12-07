@@ -13,7 +13,7 @@ public class Profile {
 
     @ApiOperation(value = "Returns profile message", notes = "")
     @GetMapping(value="{id}")
-    public String getHuman(@PathVariable(value = "id") Long id) {
+    public String getProfileMessage(@PathVariable(value = "id") Long id) {
         return profileMessage;
     }
 
@@ -24,5 +24,20 @@ public class Profile {
         return profileMessage;
     }
 
+
+    private String password = "qwerty123";
+
+    @ApiOperation(value = "Returns password", notes = "")
+    @GetMapping(value="{id}/password")
+    public String getPassword(@PathVariable(value = "id") Long id) {
+        return password;
+    }
+
+    @ApiOperation(value = "Updates password", notes = "")
+    @PutMapping(value="{id}/password")
+    public String updatePassword(@PathVariable(value = "id") Long id, @RequestBody String password) {
+        this.password = password;
+        return this.password;
+    }
 
 }

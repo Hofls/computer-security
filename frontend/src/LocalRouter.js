@@ -9,6 +9,7 @@ import ReflectedXSS from "./vulnerability/ReflectedXSS";
 import VulnerabilitiesList from "./VulnerabilitiesList";
 import PersistentXSS from "./vulnerability/PersistentXSS";
 import SqlInjection from "./vulnerability/SqlInjection";
+import CSRF from "./vulnerability/CSRF";
 
 
 class LocalRouter extends Component {
@@ -25,6 +26,7 @@ class LocalRouter extends Component {
                     <Route path="/reflected-xss" component={ReflectedXSS}/>
                     <Route path="/persistent-xss" component={PersistentXSS}/>
                     <Route path="/sql-injection" component={SqlInjection}/>
+                    <Route path="/csrf" component={CSRF}/>
                     <Route path="/" component={VulnerabilitiesList}/>
                 </Switch>
             </div>
