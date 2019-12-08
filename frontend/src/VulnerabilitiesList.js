@@ -50,6 +50,9 @@ class VulnerabilitiesList extends Component {
                     <li>
                         <Link to="/csrf">CSRF</Link>
                     </li>
+                    <li>
+                        <Link to="/clickjacking">Clickjacking</Link>
+                    </li>
                 </ul>
             </nav>
         );
