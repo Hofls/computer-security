@@ -53,6 +53,9 @@ class VulnerabilitiesList extends Component {
                     <li>
                         <Link to="/clickjacking">Clickjacking</Link>
                     </li>
+                    <li>
+                        <Link to="/brute-force">Vulnerability to Brute Force</Link>
+                    </li>
                 </ul>
             </nav>
         );
