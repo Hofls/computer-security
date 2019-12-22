@@ -12,6 +12,7 @@ import SqlInjection from "./vulnerability/SqlInjection";
 import CSRF from "./vulnerability/CSRF";
 import Clickjacking from "./vulnerability/Clickjacking";
 import BruteForce from "./vulnerability/BruteForce";
+import InsecureObjectReference from "./vulnerability/InsecureObjectReference";
 
 
 class LocalRouter extends Component {
@@ -31,6 +32,7 @@ class LocalRouter extends Component {
                     <Route path="/csrf" component={CSRF}/>
                     <Route path="/clickjacking" component={Clickjacking}/>
                     <Route path="/brute-force" component={BruteForce}/>
+                    <Route path="/insecure-object-reference" component={InsecureObjectReference}/>
                     <Route path="/" component={VulnerabilitiesList}/>
                 </Switch>
             </div>
