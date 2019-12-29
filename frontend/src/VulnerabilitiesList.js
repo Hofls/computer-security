@@ -24,7 +24,9 @@ class VulnerabilitiesList extends Component {
 
         return (
             <nav>
+
                 <ul>
+                    <h4>Main:</h4>
                     <li>
                         <Link to={reflectedXss}>Reflected XSS</Link>
                         <Link to="reflected-xss?query=cute pictures of cats">Normal usage</Link>
@@ -46,6 +48,26 @@ class VulnerabilitiesList extends Component {
                     </li>
                     <li>
                         <Link to="/insecure-object-reference">Insecure Direct Object References</Link>
+                    </li>
+                </ul>
+
+                <ul>
+                    <h4>Others:</h4>
+                    <li>
+                        Insecure Cryptographic Storage - sensitive data should be encrypted (passwords, credit cards..)
+                    </li>
+                    <li>
+                        Insufficient Transport Layer Protection - should use https to avoid man-in-the-middle attack
+                    </li>
+                    <li>
+                        CORS vulnerability - should not rely on CORS to prevent undesired requests, because it is enforced on the client side (browser). <br/>
+                        Can be easily bypassed by alternative clients (curl/wget etc)
+                    </li>
+                    <li>
+                        Remote code execution - should not use user input inside functions that are evaluating code
+                    </li>
+                    <li>
+                        Unpatched Library - should scan app dependencies, to check if there are any known vulnerabilities in them
                     </li>
                 </ul>
             </nav>
