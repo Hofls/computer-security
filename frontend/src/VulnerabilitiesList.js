@@ -67,7 +67,16 @@ class VulnerabilitiesList extends Component {
                         Remote code execution - should not use user input inside functions that are evaluating code
                     </li>
                     <li>
-                        Unpatched Library - should scan app dependencies, to check if there are any known vulnerabilities in them
+                        Components with vulnerabilities - should scan app dependencies, to check if there are any known vulnerabilities in them
+                    </li>
+                    <li>
+                        Insufficient Logging & Monitoring - to detect attacks early you should securely log & monitor application
+                    </li>
+                    <li>
+                        Insecure Deserialization - should not trust any data received from the client side (such as item price, discount, etc)
+                    </li>
+                    <li>
+                        Information Leakage - should not leak any info about application (e.g. error stacks)
                     </li>
                 </ul>
             </nav>
