@@ -9,7 +9,11 @@
     * `Keep security simple`
     * `Fix security issues correctly` - Once a security issue has been identified, it is important to develop a test for it, and to understand the root cause
     * `Don’t trust (infrastructure/services/users)`
+    * `Code reviews and unit testing`
 * `Obfuscation` - conversion of human-readable code to unreadable code (usually used on client-side code)
 * `Authentication` - process of verifying identity (e.g. by asking to provide password that only this person knows)
-* 
+* `Backup` - copy of information, to recover it in case of loss.
+* `Cryptography` - secure communication in presence of adversaries (via data encryption)
+* `Fault tolerant system` - is able to operate in case of failure of its components
+* `Sandbox (Vritualization)` - allows ot run untrusted programs in isolation (to limit possible harm)
 * 
