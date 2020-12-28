@@ -26,3 +26,5 @@
     * https://youtu.be/X4eRbHgRawI
     * https://www.pentesterlab.com/bootcamp
     * https://www.hacksplaining.com/lessons
+    * https://kali.training
+    * https://www.offensive-security.com/metasploit-unleashed/
