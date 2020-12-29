@@ -7,6 +7,11 @@
 * Open ip address in browser (on host/another guest, e.g. kali)
     * `Metasploitable` web page should be open
 
+#### Mutillidae. Challenges
+* index.php?page=user-info.php
+    * `Burp → Intruder → SQL Injection`
+* 
+* 
 
 #### Errors
 * Table metasploit.* doesn't exist
