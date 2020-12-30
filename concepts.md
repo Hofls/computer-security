@@ -16,5 +16,6 @@
 * `Cryptography` - secure communication in presence of adversaries (via data encryption)
 * `Fault tolerant system` - is able to operate in case of failure of its components
 * `Sandbox (Vritualization)` - allows ot run untrusted programs in isolation (to limit possible harm)
-* `Penetration test` - authorized simulated cyberattack on a computer system, performed to evaluate the security of the system.
-* 
+* `Vulnerability assessment` - identify, quantify and prioritize the vulnerabilities in a system (fully automated process)
+* `Penetration test` - authorized simulated cyberattack on a computer system, performed to evaluate the security of the system (partially automated)
+    * In short = `Vulnerability assessment` + exploitation of vulnerabilities

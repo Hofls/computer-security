@@ -17,13 +17,13 @@
     * `Nmap` - port scanning, version detection
     * `Wappalyzer, WhatWeb, BuiltWith, Netcat`
 * Data Breaches
-    * HaveIBeenPwned, ghostproject
+    * `HaveIBeenPwned, ghostproject`
 
 ### Vulnerability Scanning (weak spot identification)
-* Burp Suite
-* Zap
-* Nmap - vulnerability scanner
-* Acunetix, Nikto, Nessus
+* `Burp Suite`
+* `Zap`
+* `Nmap`
+* `Acunetix, Nessus, Nikto, securityheaders.com`
 
 ### Exploitation of vulnerabilities (gaining access)
 * Metasploit - develop and execute exploit code

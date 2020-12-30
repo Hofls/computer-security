@@ -1,5 +1,5 @@
 #### Installation
-* Install Burp Suite
+* Install Burp Suite (MXByb2dz)
 * Download payloads (git clone / wget)
     * https://github.com/xmendez/wfuzz/tree/master/wordlist
         * On Kali - `/usr/share/wfuzz/wordlist/`
@@ -8,7 +8,7 @@
 
 #### Tabs review
 * `Dashboard` - automatic scan, vulnerability detection
-* `Target` - limit activity to specific domain
+* `Target` - limit activity to specific domain, site map
 * `Proxy` - run browser to capture requests
 * `Intruder` - send bunch of requests with different parameters (payload)
 * `Repeater` - modify request and send it again
@@ -16,7 +16,11 @@
 * `Decoder` - decode/encode/hash (e.g. base64, hex, binary)
 * `Comparer` - diff checker
 * `Extender` - find and install plugins
+* `Project Options` - cookies, macros
 * `User options` - proxy
+
+#### Dashboard. Scan
+
 
 #### Intruder
 * Attack (SQL Injection)
@@ -30,5 +34,8 @@
 * 
 
 #### Errors
-* Refusing to start browser as your  configuration does not support running without sandbox
-    * `find .BurpSuite -name chrome-sandbox -exec chown root:root {} \; -exec chmod 4755 {} \;`
+* Refusing to start browser as your configuration does not support running without sandbox
+    * Main - `Project options → Misc → Allow the embedded browser to run without a sandbox`
+    * Alternative - `find .BurpSuite -name chrome-sandbox -exec chown root:root {} \; -exec chmod 4755 {} \;`
+* Unable to start browser: No protocol specified
+    * Run burp without `su`

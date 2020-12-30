@@ -34,7 +34,7 @@
     * `nmap --script whois* scanme.nmap.org`
 * Check common subdomain names:
     * `nmap -Pn --script=dns-brute scanme.nmap.org`
-* Check common directory directories (noisy)
+* Check common directory names (noisy)
     * `nmap --script=http-enum scanme.nmap.org`
     * e.g. - `/images/`, `/shared/`
 * Check for disallowed entries in robots.txt

@@ -24,7 +24,6 @@
     * https://portswigger.net/web-security
     * https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide/
     * https://www.youtube.com/watch?v=2_lswM1S264
-    * https://youtu.be/X4eRbHgRawI
     * https://www.pentesterlab.com/bootcamp
     * https://www.hacksplaining.com/lessons
     * https://kali.training
