@@ -19,15 +19,29 @@
 * `Project Options` - cookies, macros
 * `User options` - proxy
 
-#### Dashboard. Scan
-
+#### Dashboard. Authenticated Scan
+* Authenticated scan:
+    * Proxy → Open browser → Login in app
+    * Proxy → HTTP history → Find auth cookies
+    * Project Options → Sessions → add → set specific cookie value
+        * Scope - Scanner, Include all URLs
+    * Dashboard → New scan
+        * Scan type → Crawl
+        * Detailed scope configuration → Excluded URL prefixes → add login/logout URL
+    * Check `Target → Site nap`, traffic in wireshark
+        * If everything is correct, run Scan type → Crawl and audit
+ * Prevent login/logout (Alternative way):
+    * Target → Scope → Use advanced scope control
+        * Include everything in scope, exclude login/logout url from scope
+    * Project options → Drop all out of scope requests
 
 #### Intruder
 * Attack (SQL Injection)
     * Proxy → (Browser → Send request) → HTTP History → Send to intruder
     * Intruder → Positions → Select login → Add → Payloads
     * Payloads → Load... → SQL.txt → Start attack
-* 
+* Brute force
+pitchfork, 2 sets, 
 
 #### Extender. BApp Store
 * 

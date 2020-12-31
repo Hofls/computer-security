@@ -7,7 +7,7 @@
     * https://www.hackthebox.eu/
     * https://www.root-me.org/
     * https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
-    * https://hub.docker.com/r/vulnerables/web-dvwa
+        * Mutillidae, dvwa
     * https://scanme.nmap.org/
 * Checklist:
     * https://github.com/0xRadi/OWASP-Web-Checklist

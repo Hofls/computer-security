@@ -16,6 +16,9 @@
 * Fingerprinting (info about open ports, software, OS)
     * `Nmap` - port scanning, version detection
     * `Wappalyzer, WhatWeb, BuiltWith, Netcat`
+* WAF (Firewall) fingerprinting
+    * `wafw00f https://example.org`
+    * `WhatWaf, WAFNinja`
 * Data Breaches
     * `HaveIBeenPwned, ghostproject`
 
