@@ -19,19 +19,23 @@
 * WAF (Firewall) fingerprinting
     * `wafw00f https://example.org`
     * `WhatWaf, WAFNinja`
+* Enumerating directories
+    * `Burp suite`
+    * `Zap`
+    * `DirBuster, Nikto`
 * Data Breaches
     * `HaveIBeenPwned, ghostproject`
 
 ### Vulnerability Scanning (weak spot identification)
 * `Burp Suite`
 * `Zap`
-* `Nmap`
-* `Acunetix, Nessus, Nikto, securityheaders.com`
+* `OpenVAS, w3af, Nmap, Nikto, Acunetix, Nessus`
 
 ### Exploitation of vulnerabilities (gaining access)
 * Metasploit - develop and execute exploit code
 * 
 
 ### Reporting findings
+* http://www.pentest-standard.org/index.php/Reporting
 * https://pentester.land/list-of-bug-bounty-writeups.html
 * https://github.com/devanshbatham/Awesome-Bugbounty-Writeups

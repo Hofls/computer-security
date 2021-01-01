@@ -8,6 +8,9 @@
     * https://www.root-me.org/
     * https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
         * Mutillidae, dvwa
+    * https://sourceforge.net/projects/owaspbwa/
+    * https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide/
+        * CTF list
     * https://scanme.nmap.org/
 * Checklist:
     * https://github.com/0xRadi/OWASP-Web-Checklist
@@ -22,8 +25,6 @@
     * https://www.kali.org/
 * Courses:
     * https://portswigger.net/web-security
-    * https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide/
-    * https://www.youtube.com/watch?v=2_lswM1S264
     * https://www.pentesterlab.com/bootcamp
     * https://www.hacksplaining.com/lessons
     * https://kali.training

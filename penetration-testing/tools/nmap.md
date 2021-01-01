@@ -1,10 +1,13 @@
+##### Info
+* GUI - Zenmap
+
 ##### Port scanning:
 * Scan top 1k ports (fast)
     * `nmap scanme.nmap.org`
 * Scan all ports (slow) 
     * `nmap -p- scanme.nmap.org`
 
-##### Service and OS Detection:
+##### Version Detection:
 * Detect Services (1k ports, fast)
     * `nmap -sV scanme.nmap.org`
 * Detect Services (specific ports, fast)
