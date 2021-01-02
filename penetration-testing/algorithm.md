@@ -29,7 +29,7 @@
 ### Vulnerability Scanning (weak spot identification)
 * `Burp Suite`
 * `Zap`
-* `OpenVAS, w3af, Nmap, Nikto, Acunetix, Nessus`
+* `OpenVAS, Nmap, Nikto, Acunetix, Nessus, w3af`
 
 ### Exploitation of vulnerabilities (gaining access)
 * Metasploit - develop and execute exploit code
