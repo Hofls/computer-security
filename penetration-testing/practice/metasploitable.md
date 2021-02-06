@@ -1,5 +1,5 @@
 #### Setup
-* Install `VMWare` and `Metasploitable`
+* Install `VMware Workstation Player` and `Metasploitable (Image)`
 * Log in: `msfadmin/msfadmin`
 * On guest execute `ip addr | grep inet`
     * grab ip address
