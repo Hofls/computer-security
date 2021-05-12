@@ -1,7 +1,13 @@
 ### Info
 * Fiddler - Modern alternative to Wireshark
 
-### Catch Android emulator traffic
+### Catch Android emulator traffic (Android Studio)
+* To look at http requests/responses:
+    * Run emulator
+    * `View` -> `Tool Windows` -> `Profiler`
+    * `Start new session` -> Pick emulator -> Click on `NETWORK` timeline
+    
+### Catch Android emulator traffic (Fiddler)
 * Install `Fiddler Everywhere` (using fake email)
     * Optional - `Settings -> Connections -> Allow remote computers to connect`
     * For HTTPS:
