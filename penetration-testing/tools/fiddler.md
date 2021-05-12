@@ -3,7 +3,10 @@
 
 ### Catch Android emulator traffic
 * Install `Fiddler Everywhere` (using fake email)
-    * Not sure if necessary - `Settings -> Connections -> Allow remote computers to connect`
+    * Optional - `Settings -> Connections -> Allow remote computers to connect`
+    * For HTTPS:
+        * `Settings -> HTTPS -> Trust root certificate`
+        * `Settings -> HTTPS -> Capture HTTPS traffic`
 * Open android emulator
     * Settings -> Search field -> Wifi -> Touch active -> Edit 
         * Proxy - Manual
@@ -11,3 +14,5 @@
         * Port - 8866
     * Open Google Chrome, go to url http://example.com
         * Fiddler should catch request/response
+    * For HTTPS:
+        * TODO
