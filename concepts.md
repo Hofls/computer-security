@@ -19,3 +19,5 @@
 * `Vulnerability assessment` - identify, quantify and prioritize the vulnerabilities in a system (fully automated process)
 * `Penetration test` - authorized simulated cyberattack on a computer system, performed to evaluate the security of the system (partially automated)
     * In short = `Vulnerability assessment` + exploitation of vulnerabilities
+* `Fingerprint (Browser)` - unique id of user (e.g. timezone, screen resolution, OS, browser plugins, fonts, system language)  
+    * [Check your fingerprint](https://coveryourtracks.eff.org/)
