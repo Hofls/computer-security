@@ -36,10 +36,10 @@
     * Fix: input sanitization (most modern frameworks are already doing it).
 * `Insecure Cryptographic Storage` - sensitive data should be encrypted (passwords, credit cards..)
 * `Insufficient Transport Layer Protection` - should use https to avoid man-in-the-middle attack
-* `CORS vulnerability` - should not rely on CORS to prevent undesired requests, because it is enforced on the client side (browser). 
-    * Can be easily bypassed by alternative clients (curl/wget etc)
-* `Remote code execution` - should not use user input inside functions that are evaluating code
 * `Components with vulnerabilities` - should scan app dependencies, to check if there are any known vulnerabilities in them
 * `Insufficient Logging & Monitoring` - to detect attacks early you should securely log & monitor application
 * `Insecure Deserialization` - should not trust any data received from the client side (such as item price, discount, etc)
 * `Information Leakage` - should not leak any info about application (e.g. error stacks)
+* `CORS vulnerability` - should not rely on CORS to prevent undesired requests, because it is enforced on the client side (browser). 
+    * Can be easily bypassed by alternative clients (curl/wget etc)
+* `Remote code execution` - should not use user input inside functions that are evaluating code (e.g. `eval`)
