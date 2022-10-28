@@ -21,3 +21,4 @@
     * In short = `Vulnerability assessment` + exploitation of vulnerabilities
 * `Fingerprint (Browser)` - unique id of user (e.g. timezone, screen resolution, OS, browser plugins, fonts, system language)  
     * [Check your fingerprint](https://coveryourtracks.eff.org/)
+* `DevSecOps` - development, security, and operations (e.g. auto scan for vulnerabilities after build)
